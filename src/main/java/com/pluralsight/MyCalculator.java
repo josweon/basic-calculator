@@ -2,7 +2,7 @@ package com.pluralsight;
 
 import java.util.*;
 
-public class myCalculator {
+public class MyCalculator {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -26,6 +26,7 @@ public class myCalculator {
                 double result = firstNumber + secondNumber;
                 System.out.println("\n" + firstNumber + " + " + secondNumber + " = " + result);
                 break;
+
             case "M":
                 double result1 = firstNumber * secondNumber;
                 System.out.println("\n" + firstNumber + " * " + secondNumber + " = " + result1);
